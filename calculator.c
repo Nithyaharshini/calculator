@@ -11,6 +11,12 @@ int subtract(int i, int j) {
 int multiply(int i, int j) {
     return (i * j);
 }
+double square(double x){
+	return x*x
+}
+double cube(double x){
+	return x*x*x
+}
 
 float divide(int i, int j) {
     if (j == 0) {
